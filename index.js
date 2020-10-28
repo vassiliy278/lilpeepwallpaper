@@ -25,6 +25,7 @@ oneImageWrapper.forEach(e => {
     
 
     e.addEventListener('click', (e) => {
+        detailPage.innerHTML = ''
         body.classList.add('fade')
         detailPage.insertAdjacentHTML('beforeend', `
         <div class="detail_page_wrapper">
